@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(34, 34, 34);
+    color: aliceblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+hr{
+    border: 0.5px solid white;
+    opacity: .25;
+}
+header{
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: larger;
+}
+header h1{
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+h2{
+    font-size: 3rem;
+}
+#about {
+    display:flex;
+    margin: 4rem 10rem;
+    justify-content: space-between;
+}
+#about #text{
+    flex: 1;
+    padding-right: 10px;
+    margin-right: 15px;
+    font-size: larger;
+}
+#about #image{
+    
+    max-height: 400px;
+}
+#about img{
+    border-radius: 50%;
+}
+#skills{
+    font-size: larger;
+    margin: 4rem 10rem;
+}
+#skills h2{
+    text-align: center;
+}
+#skills h3{
+    font-size: 2rem;
+}
+.maintext{
+    color: rgb(45, 207, 191);
+}
+#project{
+    font-size: larger;
+    margin: 4rem 10rem;
+}
+#project h2{
+    text-align: center;
+}
+#project h3{
+    font-size: 2rem;
+}
+#resume{
+    text-align: center;
+    margin: 4rem 10rem;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+.btn{
+    background-color: aqua;
+    padding: 25px;
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.btn:hover{
+    transform: scale(1.05);
+    background-color: rgb(146, 255, 255);
+    border: 2.5px solid rgb(0, 0, 0);
+}
+.btn:active{
+    transform: scale(0.90);
+    background-color: rgb(0, 191, 191);
+}
+footer {
+    text-align: center;
+    font-size: larger;
+}
+#copy{
+    font-size: smaller;
+}
+footer a{
+    color: #ffffff;
+}
